@@ -53,6 +53,7 @@ complextest.cpptest: CSHARPFLAGSSPECIAL = -r:System.Numerics.dll
 csharp_lib_arrays.cpptest: CSHARPFLAGSSPECIAL = -unsafe
 csharp_lib_arrays_bool.cpptest: CSHARPFLAGSSPECIAL = -unsafe
 csharp_swig2_compatibility.cpptest: SWIGOPT += -DSWIG2_CSHARP
+doxygen_basic_translate.cpptest: CSHARPFLAGSSPECIAL = -doc:doxygen_basic_translate.xml
 
 # Rules for the different types of tests
 %.cpptest:
